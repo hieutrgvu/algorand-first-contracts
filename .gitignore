@@ -1,1 +1,3 @@
 *.teal
+venv/
+__pycache__/

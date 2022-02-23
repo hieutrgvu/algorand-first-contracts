@@ -1,0 +1,4 @@
+pyteal==0.9.0
+py-algorand-sdk==1.8.0
+pytest
+black

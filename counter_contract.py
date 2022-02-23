@@ -145,4 +145,5 @@ def main():
     call_app(algod_client, creator_private_key, app_id, app_args=["Add"])
     print("Global state:", read_global_state(algod_client, account.address_from_private_key(creator_private_key), app_id))
 
-main()
+if __name__ == "__main__":
+    main()

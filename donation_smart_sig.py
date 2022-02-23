@@ -80,4 +80,5 @@ def main():
     withdrawal_amt = 80000
     lsig_payment_txn(escrow_result, escrow_address, withdrawal_amt, receiver_public_key, algod_client)
 
-main()
+if __name__ == "__main__":
+    main()
